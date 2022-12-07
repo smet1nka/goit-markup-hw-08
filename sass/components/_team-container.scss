@@ -1,0 +1,40 @@
+.team-section{
+    background: var(--background-color-section);   
+}
+.team-list {          
+    display: flex;
+    margin-top: 50px;          
+}
+.card:not(:first-child){
+    margin-left: 30px;
+}
+.card {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card-styles {
+            background-color: var(--element-font-color);
+            width: 270px;
+}
+.employee-name {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: calc(19 / 16);    
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(--first-color);
+
+            margin-bottom: 10px;
+}
+.text-position {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: calc(19 / 16);    
+            text-align: center;
+            letter-spacing: 0.03em;    
+            color: #757575;
+}
+.team-card-div {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}

@@ -1,0 +1,45 @@
+.clients-company__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    @media screen and (min-width: 480px) {
+        display: block;
+        
+    }
+}
+
+
+
+
+
+.clients-company__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    color:#AFB1B8 ;
+    border-radius: 4px;
+
+    transition-property:border-color, color ;
+    transition-duration: var(--transition-duration-standart);
+    transition-timing-function: var(--transition-timing-standart);
+
+
+    &:hover,
+    &:focus{
+    border-color: var(--second-color);
+    color: var(--second-color);   
+}
+}
+
+
+.clients-company__icon{
+    fill: currentColor;
+}

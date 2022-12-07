@@ -1,0 +1,30 @@
+.container .adaptive{
+   
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+   
+   
+    @media screen and (min-width: 768px) { 
+        width: 768px;
+        background-color: blueviolet;
+        
+    }
+
+}
+
+@media screen and (min-width: 480px) { 
+    .container .adaptive{
+    width: 480px;
+    background-color: aqua;
+}
+    
+}
+.container-first {
+    padding-bottom: 94px;
+    padding-top: 94px;  
+}
+.container-second{
+    padding-bottom: 94px;
+}

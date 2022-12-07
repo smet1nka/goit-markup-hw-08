@@ -1,0 +1,15 @@
+
+body {
+    width: 1200px;
+    font-family: "Roboto", sans-serif;
+    color: var(--first-color);
+    background-color:var(--element-font-color);
+    padding-top: 80px;
+
+    }
+
+    @media screen and (min-width: 480px) {
+        body {
+            background-color: aqua;
+        }
+    }

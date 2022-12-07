@@ -1,0 +1,50 @@
+.work-card__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.work-card__item:not(:first-child){
+    margin-left: 30px;
+
+}
+.work-card__item{
+    position: relative;
+    display: flex;
+    justify-content: center; 
+}
+.card-text{
+    position: absolute;
+    bottom: 0;  
+}
+.card-text__style{
+    
+    display: flexbox;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+
+    color: var(--element-font-color);
+    background-color: rgba(47, 48, 58, 0.8);
+
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.card-text__desk-add{ 
+padding-right: 107px;
+padding-left: 107px;
+
+}
+.card-text__phone-add{
+padding-right: 112px;
+padding-left: 113px;
+}
+.card-text__desine{
+padding-right: 95px;
+padding-left: 94px;
+}

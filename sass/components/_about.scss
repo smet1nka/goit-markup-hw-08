@@ -1,0 +1,30 @@
+.about-list{ 
+    display: flex;
+}
+.about-list__item{
+    width: 270px;
+    &:not(:first-child){
+        margin-left: 30px;
+    }
+}
+.about-box__icon{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-section);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+.about-list__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    letter-spacing: 0.03em;    
+    color: #757575;
+}
+
+
+

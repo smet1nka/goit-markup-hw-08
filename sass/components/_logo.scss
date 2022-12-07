@@ -1,0 +1,20 @@
+.first-part-logo {
+    font-family:var(--second-font) ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+
+    letter-spacing: 0.03em;
+    color: var(--second-color);
+}
+.last-part-logo {
+    font-family: var(--second-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    
+    letter-spacing: 0.03em;
+    color: #000000;
+}

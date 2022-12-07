@@ -1,0 +1,57 @@
+.hero-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    display: flex;
+
+    letter-spacing: 0.06em;
+    background-color:var(--second-color);
+    color: var(--element-font-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    margin: 0 auto;
+    padding:10px 32px 10px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition-property: background-color;
+    transition-duration: var(--transition-duration-standart);
+    transition-timing-function: var(--transition-timing-standart);
+    
+
+    &:hover,
+    &:focus {
+                background-color: #188CE8;
+                
+    }
+}
+
+.btn-sing-up{
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    letter-spacing: 0.06em;
+    color: var(--element-font-color);
+    background-color: var(--second-color);
+    
+    margin-left: 10px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    padding-left: 28px; 
+    margin-bottom: 0;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    
+    
+}
