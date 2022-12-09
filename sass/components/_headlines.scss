@@ -17,19 +17,35 @@
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
+    
 
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--first-color);
 
     margin-bottom: 10px;
+
+    @media screen and (min-width:480px) and (max-width:768px) {
+        text-align: center;
+        justify-content: center;
+        width: 354px;
+    }
+
+    @media screen and (min-width:768) {
+        text-align: left;
+        
+    }
 }
+
+
 
 .work-card__title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
+    
+    
 
     letter-spacing: 0.03em;    
     color: var(--first-color);          
@@ -54,5 +70,9 @@
     letter-spacing: 0.03em;
     color: #212121;
     
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;   
+          
+   }
 }

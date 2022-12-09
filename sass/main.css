@@ -57,20 +57,20 @@ button {
   cursor: pointer;
 }
 
-.container .adaptive {
+.container  {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
-  .container .adaptive {
+  .container  {
     width: 768px;
     background-color: blueviolet;
   }
 }
 
 @media screen and (min-width: 480px) {
-  .container .adaptive {
+  .container  {
     width: 480px;
     background-color: aqua;
   }

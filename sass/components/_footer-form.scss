@@ -13,7 +13,11 @@
         color:var(--element-font-color);
     }
     .footer-mailing-list{
-    display: flex;
+    display: block;
+
+    @media screen and (min-width:768px){
+        display: flex;
+    }
     }
     .footer-form-size{
     width: 358px;

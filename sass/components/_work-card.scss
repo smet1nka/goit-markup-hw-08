@@ -1,3 +1,20 @@
+.work{
+    display: none;
+    
+
+    @media screen and (min-width:768px) {
+        display: none;
+        
+    }
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
 .work-card__list {
     display: flex;
     flex-wrap: wrap;
