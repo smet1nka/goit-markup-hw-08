@@ -1,11 +1,15 @@
 .footer {
+    margin: 0;
+    display: flex;
+    text-align: center;
+    height: 603px;
 
-    display: block;
-    
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;  
+
 }
+
 .footer-container{
     display: inline-block;
     justify-content: center;
@@ -19,12 +23,24 @@
         display: flex;
         align-items: baseline;
         justify-content: center;
+        
     }
 }
 .footer-contact{
     text-align: center;
     display: flex;
-    justify-content: center;
+    margin-bottom: 60px;
+    border: 1px solid blue;
+
+    @media  screen and (min-width:768px) {
+         
+            display: block;
+          } 
+          @media  screen and (min-width:768px) {
+         
+            margin-right: 73px;
+          } 
+           
 }
 .footer-adress{           
     margin-top: 20px;            
@@ -76,7 +92,9 @@
 }
 }
 .footer-action{
-    margin-left: 70px;
+    margin-top: 60px;
+    align-items: center;
+   border: 1px solid red;
 }
 .footer-icon{ 
    justify-content: center;
@@ -115,5 +133,8 @@
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
 }
 

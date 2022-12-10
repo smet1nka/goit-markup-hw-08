@@ -1,5 +1,7 @@
 .team-section{
-    background: var(--background-color-section);   
+    background: var(--background-color-section);
+    display: flex; 
+    justify-content: center;  
 }
 .team-list {          
     display: block;
@@ -13,14 +15,54 @@
     }
     
 }
-.card{
-   
+// @media  screen and (min-width:768px) {
+//         .team-list:nth-child(odd) {
+//             margin-left: 30px;
+//           } 
+//     }
+.team{
+    display: block;
+
+    @media  screen and (min-width:1200px) {
+        display: flex;
+            
+          } 
 }
-@media  screen and (min-width:768px) {
-    .card:not(:first-child){
-        margin-left: 30px;
+.team-list_one{
+    @media  screen and (min-width:768px) {
+        display: flex; 
+       margin: 0; 
     }
 }
+
+.team-list_two{
+
+    @media  screen and (min-width:768px) and (max-width:1199px)  {
+        display: flex; 
+       
+       margin-top: 30px;
+    }
+
+    @media  screen and (min-width:1200px)  {
+        display: flex; 
+       margin-left: 30px; 
+       
+    }
+    
+
+}
+    @media  screen and (min-width:768px) {
+        .team-list_two:not(:last-child) {
+            margin-left: 30px;
+          } 
+        }
+
+
+// @media  screen and (min-width:768px) {
+//     .card:not(:first-child){
+//         margin-left: 30px;
+//     }
+// }
 
 @media  screen and (min-width:1200px) {
     .card:not(:first-child){
@@ -36,12 +78,24 @@
             width: 450px;
 
             @media  screen and (min-width:768px) {
-                width: 354px;   
+                width: 354px;
+                height: 536px;   
             }
             @media  screen and (min-width:1200px) {
-                width: 270px;   
+                width: 270px; 
+                height: 428px;  
             }
 }
+
+@media screen and (min-width:480px) and (max-width:768px){
+    .card-styles:not(:first-child){
+        margin-top: 30px;
+    }   
+        
+}
+
+
+
 .employee-name {
             font-weight: 500;
             font-size: 16px;
@@ -63,4 +117,7 @@
 .team-card-div {
     padding-bottom: 30px;
     padding-top: 30px;
+
+     
 }
+

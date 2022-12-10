@@ -20,14 +20,25 @@
     }
     }
     .footer-form-size{
-    width: 358px;
+    width: 450px;
     height: 50px;
+    
+
+    margin-bottom: 30px;
     padding-left: 16px;
     
     background-color: #2F303A;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+
+    @media screen and (min-width:768px){
+        width: 358px;
+    }
+
+    @media screen and (min-width:768px){
+        width: 358px;
+    }
     }
     .footer-icon-send{
     margin-left: 10px;

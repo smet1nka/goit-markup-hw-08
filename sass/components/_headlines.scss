@@ -1,17 +1,36 @@
 .hero-title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: calc(60 / 44);    
+    font-size: 26px;
+    line-height: calc(42 / 26);    
     text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color:var(--element-font-color);
 
-    width: 696px;
-    margin: 0 auto;
+    width: 360px;
+    
     margin-bottom: 30px;
+
+    @media screen and (min-width:768px)   {
+        font-size: 26px;
+        line-height: calc(42 / 26);
+        margin: 0 auto;   
+        margin-bottom: 30px;
+        // width: 36px;
+        }
+
+    @media screen and (min-width:1200px)  {
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    margin: 0 auto;   
+    width: 696px;
+    }
 }
+
 
 .about-list__title {
     font-weight: 700;
@@ -29,6 +48,8 @@
         text-align: center;
         justify-content: center;
         width: 354px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     @media screen and (min-width:768) {
