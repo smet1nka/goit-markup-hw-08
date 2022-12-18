@@ -16,22 +16,28 @@
     @media screen and (min-width:1200px) {
         display: flex;
         justify-content: center;
-        width: 1200px;
-        position: fixed;
-        width: 100%;
-        top:0;
-        left: 0;
-        z-index: 1
-
-        
-       
-        
+        text-align: center;  
     }
 }
-
+.heder__burger{
+    display: flex;
+    text-align: center;
+}
 .header-container{
     display: flex;
     align-items: center;
+   
+    
+
+    // @media screen and (min-width:1200px) {
+    //     display: flex;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    //     align-items: center;
+        
+    // }
+
+
 }
 .header-contact-item:hover{
 fill: var(--second-color);

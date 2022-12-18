@@ -3,15 +3,17 @@
     font-size: 26px;
     line-height: calc(42 / 26);    
     text-align: center;
+   
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    
+    margin-top: auto;
+    margin-bottom: auto ;
     
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color:var(--element-font-color);
 
-    width: 360px;
+    
     
     margin-bottom: 30px;
 
@@ -26,7 +28,7 @@
     @media screen and (min-width:1200px)  {
     font-size: 44px;
     line-height: calc(60 / 44);
-    margin: 0 auto;   
+      
     width: 696px;
     }
 }
@@ -52,7 +54,7 @@
         margin-right: auto;
     }
 
-    @media screen and (min-width:768) {
+    @media screen and (min-width:767px) {
         text-align: left;
         
     }

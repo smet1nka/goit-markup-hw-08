@@ -1,6 +1,9 @@
-.footer-sing-up{
-    margin-left: 93px;
+.footer__sing-up{
+   margin-top: 60px;
     }
+
+    
+
     .footer-folow-mailing{
         display: block;
         font-weight: 700;
@@ -11,20 +14,32 @@
         text-transform: uppercase;
         margin-bottom: 20px;
         color:var(--element-font-color);
+
+        @media screen and (min-width:1200px)  {
+            left: 0;
+             }
     }
     .footer-mailing-list{
     display: block;
 
     @media screen and (min-width:768px){
-        display: flex;
+        display: block;
+        
     }
+
+    @media screen and (min-width:1200px)  {
+       display: flex;
+      
+        }
     }
     .footer-form-size{
     width: 450px;
     height: 50px;
+
+    
     
 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-left: 16px;
     
     background-color: #2F303A;
@@ -33,12 +48,13 @@
     border-radius: 4px;
 
     @media screen and (min-width:768px){
-        width: 358px;
+        width: 450px;
+        height: 50px;
     }
-
-    @media screen and (min-width:768px){
+    @media screen and (min-width:1200px)  {
         width: 358px;
-    }
+         }
+   
     }
     .footer-icon-send{
     margin-left: 10px;
