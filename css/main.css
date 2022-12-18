@@ -27,11 +27,6 @@ body {
   color: var(--first-color);
   background-color: var(--element-font-color);
 }
-@media screen and (min-width: 1200px) {
-  body {
-    padding-top: 24px;
-  }
-}
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0px;
