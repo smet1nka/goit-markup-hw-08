@@ -942,6 +942,7 @@ button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 94px;
 }
 
 .work-card__item:not(:first-child) {
